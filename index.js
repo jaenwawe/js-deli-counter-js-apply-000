@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 var tracker = 0;
 
+=======
+>>>>>>> ec41809460ba89637e74cbf80870a673c74b4394
 function takeANumber(katzDeli, current){
   var place = katzDeli.length + 1
   katzDeli.push(current)
   return `Welcome, ${current}. You are number ${place} in line.`
+<<<<<<< HEAD
 }
 
 
@@ -11,6 +15,8 @@ function internalTracker(katzDeli){
   katzDeli.push(tracker)
   tracker++;
   return `You are ticket number ${tracker}`
+=======
+>>>>>>> ec41809460ba89637e74cbf80870a673c74b4394
   
 }
 
@@ -55,4 +61,8 @@ function nowServing(katzDeli){
   
 
 
+<<<<<<< HEAD
   
+=======
+  
+>>>>>>> ec41809460ba89637e74cbf80870a673c74b4394
